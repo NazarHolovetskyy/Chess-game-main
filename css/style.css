@@ -1,0 +1,31 @@
+body {
+  background-color:#8138b2;
+}
+
+#board {
+  position: relative;
+  top: 60px;
+  border-radius: 35px;
+  background: linear-gradient(315deg, #7432a0, #8a3cbe);
+  box-shadow:  -30px -30px 60px #411c59,
+             30px 30px 60px #c254ff;
+  border: 5px solid  #1b0927;
+}
+
+table {
+  font-size: 2em; /* збільшення розміру шрифту */
+  line-height: 1.5; /* збільшення міжрядкового інтервалу */
+  border-spacing: 20px; /* збільшення інтервалу між клітинками */
+  margin:0 auto;
+  border-collapse: collapse;
+}
+td {
+  width: 55px;
+  height: 55px;
+  text-align: center;
+}
+.black {
+  background-color: gray;}
+.white {
+  background-color: white;
+}
